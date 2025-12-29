@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "author": "Simon Hofmann <simon.hofmann@dry.software>",
+  "license": "Apache-2.0",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "4.0.16"
+  }
+}
