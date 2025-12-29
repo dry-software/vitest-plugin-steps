@@ -1,0 +1,33 @@
+{
+  "name": "vitest-plugin-steps",
+  "version": "1.0.0",
+  "description": "Vitest plugin that adds Playwright-style step() support",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./setup": {
+      "types": "./dist/setup.d.ts",
+      "import": "./dist/setup.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "vitest": ">=4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.3.0",
+    "vitest": "4.0.16"
+  }
+}

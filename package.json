@@ -1,0 +1,22 @@
+{
+  "name": "vitest-steps-plugin-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright-style test steps for Vitest",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "vitest-plugin"
+  ],
+  "author": "Simon Hofmann <simon.hofmann@dry.software>",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "4.0.16",
+    "vitest-plugin-steps": "workspace:*"
+  }
+}

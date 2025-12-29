@@ -1,0 +1,13 @@
+# Source files (dist is published via "files" in package.json)
+src/
+
+# TypeScript config
+tsconfig.json
+
+# IDE
+.idea/
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
